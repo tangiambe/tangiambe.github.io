@@ -124,6 +124,30 @@ footer {
 
 }
 
+.footer-social {
+    text-align: right
+}
+
+.footer-social ul {
+    margin: 5px 0 0 0;
+    padding: 0
+}
+
+.footer-social li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style: none
+}
+
+.footer-social a {
+    display: block;
+    color: #f8479dbb;
+    padding: 10px
+}
+
+.footer-social a:hover {
+    color: #e2398bbb;
+}
 
 .btn-rounded-white {
     display: inline-block;

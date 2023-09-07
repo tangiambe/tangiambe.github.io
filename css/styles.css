@@ -66,6 +66,30 @@ header.sticky {
     display: block
 }
 
+.social {
+    text-align: center
+}
+
+.social ul {
+    margin: 5px 0 0 0;
+    padding: 0
+}
+
+.social li {
+    display: inline-block;
+    font-size: 1.25em;
+    list-style: none
+}
+
+.social a {
+    display: block;
+    color: #f6f5f5;;
+    padding: 10px
+}
+
+.social a:hover {
+    color: #f8479dbb;
+}
 
 footer {
     padding: 50px 0

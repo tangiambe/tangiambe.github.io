@@ -8,6 +8,11 @@ body.active {
     z-index: -1
 }
 
+.background {
+    /* background: #f2f2f5 */
+    background: #0a192f
+}
+
 header {
     position: absolute;
     top: 0;
@@ -23,7 +28,7 @@ header {
 
 header ul {
     display: inline-block;
-    background: #f6f5f5d7;
+    /* background: #f6f5f5d7 ; #0a192fbf */
     text-align: center;
     padding: 20px;
     margin: 0;
@@ -37,14 +42,14 @@ header li {
 
 header a {
     display: block;
-    color: #f8479dbb;
-    padding: 10px
+    color: #f8479d;
+    padding: 20px
 }
 
 header a:hover {
-    color: #e92383;
+     color: #f6f5f5d7; /*#e92383 */
     text-decoration: none;
-    background: #eee;
+    /* background: #eee; */
     border-radius: 4px
 }
 
@@ -83,12 +88,12 @@ header.sticky {
 
 .social a {
     display: block;
-    color: #f6f5f5;;
+    color: #f6f5f5;
     padding: 10px
 }
 
 .social a:hover {
-    color: #f8479dbb;
+    color: #e92383;
 }
 
 footer {
@@ -160,7 +165,7 @@ footer {
 
 .btn-rounded-white:hover {
     color: #e92383;
-    background: #fff;
+    /* background: #fff; */
     text-decoration: none
 }
 
@@ -194,10 +199,6 @@ footer {
     background: #f8479d
 }
 
-.background {
-    background: #f2f2f5
-    /* background: #0a192f */
-}
 
 #main {
     position: relative;
@@ -234,7 +235,7 @@ footer {
 }
 
 #main-content h2 {
-    color: #f6f5f5d7;
+    color: #f8479d;
     font-weight: 500;
     font-size: 2.25em;
     margin-bottom: 15px
@@ -249,7 +250,8 @@ footer {
     bottom: 0;
     left: 0;
     /* background: #217dbbcc; */
-    background:#ed49989b;
+    /* background:#ed49989b; */
+    background: #0a192fb1;
     z-index: 1
 }
 
@@ -301,7 +303,7 @@ footer {
 }
 
 #about h2 {
-    color: #374054
+    color: #f8479d
 }
 
 #about p {
@@ -316,7 +318,7 @@ footer {
 }
 
 #experience h2 {
-    color: #374054
+    color:#f8479d
 }
 
 #experience ul {
@@ -358,7 +360,7 @@ footer {
 
 .vtimeline-content {
     margin-left: 350px;
-    background: #fff;
+    background: #fff; /*#f6f5f5d7*/
     border: 1px solid #e6e6e6;
     padding: 15px;
     border-radius: 3px;
@@ -428,7 +430,7 @@ footer {
 }
 
 #education h2 {
-    color: #374054;
+    color: #f8479d;
     margin-bottom: 50px
 }
 
@@ -477,7 +479,7 @@ footer {
 }
 
 #projects h2 {
-    color: #374054;
+    color: #f8479d;
     margin-bottom: 50px
 }
 
@@ -549,7 +551,7 @@ footer {
 }
 
 #skills h2 {
-    color: #374054;
+    color: #e92383;
     margin-bottom: 50px
 }
 
@@ -564,7 +566,7 @@ footer {
     display: inline-block;
     margin: 7px;
     padding: 5px 10px;
-    color: #374054;
+    color: #e92383;
     background: #e4e4ea;
     list-style: none;
     cursor: default;
@@ -574,34 +576,6 @@ footer {
 
 #more-projects {
     display: none
-}
-
-#skills {
-    padding: 50px 15px;
-    text-align: center
-}
-
-#skills h2 {
-    color: #374054;
-    margin-bottom: 50px
-}
-
-#skills ul {
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-    max-width: 800px
-}
-
-#skills li {
-    display: inline-block;
-    margin: 7px;
-    padding: 5px 10px;
-    color: #374054;
-    background: #e4e4ea;
-    list-style: none;
-    cursor: default;
-    font-size: 1.2em
 }
 
 

@@ -21,18 +21,18 @@ body.active {
 
 /*
     --------------------------
-    ----- Navbar Section -----
+    ----- Header Section -----
     --------------------------
 */
 
-navbar {
+header {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     text-align: center;
     z-index: 10;
-    animation-name: dropNavbar;
+    animation-name: dropHeader;
     animation-iteration-count: 1;
     animation-timing-function: ease;
     animation-duration: 0.75s;
@@ -49,7 +49,7 @@ navbar {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15)
 } */
 
-navbar ul {
+header ul {
     display: inline-block;
     /* background: #f6f5f5d7 ; #0a192fbf */
     text-align: center;
@@ -59,35 +59,35 @@ navbar ul {
     border-bottom-left-radius: 4px
 }
 
-navbar li {
+header li {
     display: inline-block
 }
 
-navbar a {
+header a {
     display: block;
     color: #f8479d;
     padding: 20px
 }
 
-navbar a:hover {
+header a:hover {
      color: #fff; /*#e92383*/ /*#f6f5f5d7 */
     text-decoration: none;
     /* background: #eee; */
     border-radius: 4px
 }
 
-navbar a:focus {
+header a:focus {
     color: #f8479d;
     text-decoration: none
 }
 
 
 
-navbar.active {
+header.active {
     display: block
 }
 
-navbar.sticky {
+header.sticky {
     position: fixed;
     z-index: 999
 }
@@ -285,73 +285,84 @@ navbar.sticky {
     --------------------------
 */
 
-#about {
+/* #about1 {
     padding: 75px 15px;
     border-bottom: 1px solid #dcd9d9
 }
 
-#about h2 {
+#about1 h2 {
     color: #f8479d
     
 }
 
-#about p {
+#about1 p {
     color: #74808a;
     margin: 0
-}
+} */
 
 /*
     -----------------------------
-    ----- Education Section -----
+    ----- About Section -----
     -----------------------------
 */
 
-#education {
+#about {
     padding: 50px 15px 20px 15px;
     border-bottom: 1px solid #dcd9d9;
     text-align: center
 }
 
-#education h2 {
+#about h2 {
     color: #f8479d;
     margin-bottom: 50px
 }
 
-.education-block {
-    max-width: 700px;
+.about-block {
+    max-width: 900px;
     margin: 0 auto 30px auto;
     padding: 15px;
-    border: 1px solid #dcd9d9;
-    text-align: left
+    border: 1px solid #f8479d;
+    text-align: left;
+    /* background-color: #f6f5f5 */
 }
 
-.education-block h3 {
-    font-weight: 500;
+.about-block h3 {
+    font-weight: 700;
     float: left;
     margin: 0;
-    color: #374054
+    color: #f8479d;
+    font-size: 30px
 }
 
-.education-block span {
-    color: #74808a;
-    float: right
-}
 
-.education-block h4 {
-    color: #74808a;
+.about-block p {
+    color: #f6f5f5;
     clear: both;
-    font-weight: 500;
-    margin: 0 0 15px 0
+    /* font-weight: 100; */
+    margin: 0 0 1px 0;
+    font-size: 25px
 }
 
-.education-block p,
-.education-block ul {
-    margin: 0;
-    color: #74808a;
-    font-size: 0.9em
+
+.about-block span {
+    /* margin: 0;
+    font-weight: 100; */
+    color: #f8479d;
+    /* font-size: 15px; */
+    
 }
 
-.education-block ul {
+.about-block a {
+    color: #f8479d;
+    text-decoration: underline
+}
+
+.about-block a:hover {
+    color: #e4e4ea;
+    /* text-decoration: none */
+}
+
+.about-block ul {
     padding: 0 0 0 15px
 }
 
@@ -369,6 +380,7 @@ navbar.sticky {
 
 #experience h2 {
     color:#f8479d
+    
 }
 
 #experience ul {
@@ -497,13 +509,19 @@ navbar.sticky {
 }
 
 .project {
+    transition: transform .2s;
     position: relative;
     max-width: 900px;
     margin: 0 auto 30px auto;
     overflow: hidden;
     background: #fff;
-    border-radius: 4px
+    border-radius: 4px;
+    border: 1px solid #f8479d;
 }
+
+.project:hover{
+    transform:scale(1.1);
+} 
 
 .project-image {
     float: left
@@ -537,6 +555,7 @@ navbar.sticky {
     padding: 30px 15px;
     transform: none
 }
+
 
 .tech {
     position: relative;

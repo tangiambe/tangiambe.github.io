@@ -7,7 +7,7 @@
     $('html').removeClass('no-js');
 
 
-    $('navbar a').click(function(e) {
+    $('header a').click(function(e) {
 
 
         if ($(this).hasClass('no-scroll')) return;
@@ -21,8 +21,8 @@
         }, Math.abs(window.pageYOffset - $(heading).offset().top) / 1);
 
 
-        if ($('navbar').hasClass('active')) {
-            $('navbar, body').removeClass('active');
+        if ($('header').hasClass('active')) {
+            $('header, body').removeClass('active');
         }
     });
 

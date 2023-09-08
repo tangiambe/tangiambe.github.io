@@ -7,7 +7,7 @@
     $('html').removeClass('no-js');
 
 
-    $('header a').click(function(e) {
+    $('navbar a').click(function(e) {
 
 
         if ($(this).hasClass('no-scroll')) return;
@@ -21,8 +21,8 @@
         }, Math.abs(window.pageYOffset - $(heading).offset().top) / 1);
 
 
-        if ($('header').hasClass('active')) {
-            $('header, body').removeClass('active');
+        if ($('navbar').hasClass('active')) {
+            $('navbar, body').removeClass('active');
         }
     });
 
@@ -34,7 +34,7 @@
     });
 
 
-    $('#main-down span').click(function() {
+    $('#nav-down span').click(function() {
         var scrollDistance = $('#main').next().offset().top;
         $('html, body').animate({
             scrollTop: scrollDistance + 'px'
@@ -49,19 +49,19 @@
 
 
         $userContent.each(function() {
-            $(this).addClass('vtimeline-content').wrap('<div class="vtimeline-point"><div class="vtimeline-block"></div></div>');
+            $(this).addClass('timeline-content').wrap('<div class="timeline-point"><div class="timeline-block"></div></div>');
         });
 
 
-        $this.find('.vtimeline-point').each(function() {
-            $(this).prepend('<div class="vtimeline-icon"><i class="fa fa-map-marker"></i></div>');
+        $this.find('.timeline-point').each(function() {
+            $(this).prepend('<div class="timeline-icon"><i class="fa fa-map-marker"></i></div>');
         });
 
 
-        $this.find('.vtimeline-content').each(function() {
+        $this.find('.timeline-content').each(function() {
             var date = $(this).data('date');
             if (date) { // Prepend if exists
-                $(this).parent().prepend('<span class="vtimeline-date">'+date+'</span>');
+                $(this).parent().prepend('<span class="timeline-date">'+date+'</span>');
             }
         });
 

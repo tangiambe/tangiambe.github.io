@@ -543,26 +543,33 @@ footer {
     position: relative;
 }
 
-/* .vtimeline-content h3 {
-    font-size: 1.5em;
-    font-weight: 300;
+#skills {
+    padding: 50px 15px;
+    text-align: center
+}
+
+#skills h2 {
     color: #374054;
+    margin-bottom: 50px
+}
+
+#skills ul {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 800px
+}
+
+#skills li {
     display: inline-block;
-    margin: 0
+    margin: 7px;
+    padding: 5px 10px;
+    color: #374054;
+    background: #e4e4ea;
+    list-style: none;
+    cursor: default;
+    font-size: 1.2em
 }
-
-.vtimeline-content h4 {
-    font-size: 1.2em;
-    font-weight: 300;
-    color: #7e8890;
-    margin: 0 0 15px 0
-}
-
-.vtimeline-content p {
-    color: #74808a;
-    font-size: 0.9em;
-    margin: 0
-} */
 
 
 #more-projects {

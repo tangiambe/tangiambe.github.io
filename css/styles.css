@@ -577,6 +577,7 @@ header.sticky {
     position: relative;
 }
 
+
 /*
     --------------------------
     ----- Skills Section -----
@@ -601,6 +602,7 @@ header.sticky {
 }
 
 #skills li {
+    transition: transform .2s;
     display: inline-block;
     margin: 7px;
     padding: 5px 10px;
@@ -611,7 +613,9 @@ header.sticky {
     font-size: 1.2em
 }
 
-
+#skills li:hover{
+    transform:scale(1.2);
+} 
 /*
     --------------------------
     ----- Footer Section -----

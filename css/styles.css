@@ -36,9 +36,8 @@ header {
     animation-iteration-count: 1;
     animation-timing-function: ease;
     animation-duration: 0.75s;
-    
+
     font-size: 27px
-    
 }
 
 /* .shadow {
@@ -54,13 +53,11 @@ header {
 header ul {
     display: inline-block;
     /* background: #f6f5f5d7 ; #0a192fbf */
-    border: 1px solid #f8479d;
+    border: 4px double #f8479d;
     text-align: center;
     padding: 20px;
     margin: 0;
-    border-bottom-right-radius: 4px;
-    border-bottom-left-radius: 4px
-    
+    border-radius: 5px;
 }
 
 header li {
@@ -69,12 +66,16 @@ header li {
 
 header a {
     display: block;
-    color: #f8479d;
+    /* color: #f8479d; */
+    color: #fff;
     padding: 20px
 }
 
 header a:hover {
-     color: #fff; /*#e92383*/ /*#f6f5f5d7 */
+    color: #f8479d;
+    ;
+    /*#e92383*/
+    /*#f6f5f5d7 */
     text-decoration: none;
     /* background: #eee; */
     border-radius: 4px
@@ -192,15 +193,22 @@ header.sticky {
     color: #fff;
     padding: 15px 25px;
     border: 3px solid #fff;
-    border-radius: 30px;
+    box-shadow: 0 6px #828181;
+    border-radius: 5px; 
+    font-size: 17px;
     transition: .5s ease all
 }
 
 .download-btn:hover {
     color: #e92383;
-    /* background: #fff; */
     text-decoration: none
 }
+
+.download-btn:active {
+    box-shadow: 0 5px #515050;
+    transform: translateY(4px);
+}
+
 
 /*
     --------------------------
@@ -225,12 +233,12 @@ header.sticky {
 
 .main-social a {
     display: block;
-    color: #f6f5f5;
+    color: #e92383;
     padding: 10px
 }
 
 .main-social a:hover {
-    color: #e92383;
+    color: #f6f5f5;
 }
 
 /*
@@ -353,7 +361,7 @@ header.sticky {
     font-weight: 100; */
     color: #f8479d;
     /* font-size: 15px; */
-    
+
 }
 
 .about-block a {
@@ -383,8 +391,7 @@ header.sticky {
 }
 
 #experience h2 {
-    color:#f8479d
-    
+    color: #f8479d
 }
 
 #experience ul {
@@ -431,7 +438,8 @@ header.sticky {
 
 .timeline-content {
     margin-left: 350px;
-    background: #fff; /*#f6f5f5d7*/
+    background: #fff;
+    /*#f6f5f5d7*/
     border: 1px solid #e6e6e6;
     padding: 15px;
     border-radius: 3px;
@@ -524,21 +532,21 @@ header.sticky {
 }
 
 .project:hover {
-    transform:scale(1.1); 
-} 
+    transform: scale(1.1);
+}
 
 
 a img:last-child {
-    display: none;  
-  }
+    display: none;
+}
 
 .project:hover a img:last-child {
-    display: block;  
-} 
+    display: block;
+}
 
 .project:hover a img:first-child {
-    display: none;  
-  }
+    display: none;
+}
 
 .project-image {
     float: left
@@ -557,7 +565,6 @@ a img:last-child {
     font-size: 27px;
     color: #374054;
     margin: 0 0 15px 0
-    
 }
 
 .project:hover h3 {
@@ -568,7 +575,6 @@ a img:last-child {
     font-size: 20px;
     color: #7e8890;
     margin: 0 0 15px 0
-    
 }
 
 .project:hover h4 {
@@ -610,7 +616,7 @@ a img:last-child {
 }
 
 .project:hover li {
-   border: 1px solid #e92383;
+    border: 1px solid #e92383;
 }
 
 
@@ -649,9 +655,10 @@ a img:last-child {
     font-size: 1.2em
 }
 
-#skills li:hover{
-    transform:scale(1.2);
-} 
+#skills li:hover {
+    transform: scale(1.2);
+}
+
 /*
     --------------------------
     ----- Footer Section -----
@@ -696,7 +703,6 @@ footer {
 .top i {
     animation: pulsate 1s ease;
     animation-iteration-count: infinite
-
 }
 
 
@@ -723,7 +729,8 @@ footer {
 
 .footer-social a {
     display: block;
-    color: #e92383;;
+    color: #e92383;
+    ;
     padding: 10px
 }
 

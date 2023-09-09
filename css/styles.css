@@ -540,17 +540,6 @@ a img:last-child {
 }
 
 
-a img:last-child {
-    display: none;  
-  }
-  a:hover img:last-child {
-    display: block;  
-  }
-  a:hover img:first-child {
-    display: none;  
-  }
-
-
 .project-info {
     position: absolute;
     top: 50%;

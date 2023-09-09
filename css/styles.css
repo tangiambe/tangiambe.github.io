@@ -54,6 +54,7 @@ header {
 header ul {
     display: inline-block;
     /* background: #f6f5f5d7 ; #0a192fbf */
+    border: 1px solid #f8479d;
     text-align: center;
     padding: 20px;
     margin: 0;

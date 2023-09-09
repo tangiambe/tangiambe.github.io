@@ -572,16 +572,15 @@ a img:last-child {
 }
 
 .project:hover h4 {
-    color: #e92383;
+    color: #374054;
 }
 
 .project a {
-    font-size: 20px;
+    font-size: 25px;
     color: #232a3b;
 }
 
 .project:hover a {
-    font-size: 25px;
     color: #e92383;
 }
 
@@ -605,10 +604,13 @@ a img:last-child {
     margin-bottom: 7px;
     white-space: nowrap;
     position: relative;
+    border: 1px solid #374054;
+    padding: 2.5px;
+    border-radius: 4px;
 }
 
 .project:hover li {
-   color: #e92383;
+   border: 1px solid #e92383;
 }
 
 

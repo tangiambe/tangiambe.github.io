@@ -519,13 +519,37 @@ header.sticky {
     border: 1px solid #f8479d;
 }
 
-.project:hover{
-    transform:scale(1.1);
+.project:hover {
+    transform:scale(1.1); 
 } 
+
+a img:last-child {
+    display: none;  
+  }
+
+.project:hover a img:last-child {
+    display: block;  
+} 
+
+.project:hover a img:first-child {
+    display: none;  
+  }
 
 .project-image {
     float: left
 }
+
+
+a img:last-child {
+    display: none;  
+  }
+  a:hover img:last-child {
+    display: block;  
+  }
+  a:hover img:first-child {
+    display: none;  
+  }
+
 
 .project-info {
     position: absolute;

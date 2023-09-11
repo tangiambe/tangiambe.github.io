@@ -376,9 +376,10 @@ header.sticky {
 
 #experience ul {
     margin: 0;
-    color: #74808a;
-    font-size: 0.9em
+    color: #fff;
+    font-size: 17px
 }
+
 
 /*
     ------------------------------
@@ -418,7 +419,7 @@ header.sticky {
 
 .timeline-content {
     margin-left: 350px;
-    background: #fff;
+    /* background: #fff; */
     /*#f6f5f5d7*/
     border: 1px solid #e6e6e6;
     padding: 15px;
@@ -427,17 +428,17 @@ header.sticky {
 }
 
 .timeline-content h3 {
-    font-size: 1.5em;
+    font-size: 25px;
     font-weight: 300;
-    color: #374054;
+    color: #fff;
     display: inline-block;
     margin: 0
 }
 
 .timeline-content h4 {
-    font-size: 1.2em;
+    font-size: 20px;
     font-weight: 300;
-    color: #7e8890;
+    color: #f8479d;
     margin: 0 0 15px 0
 }
 
@@ -449,9 +450,15 @@ header.sticky {
 
 .timeline-point {
     position: relative;
+    transition: transform .2s;
     display: block;
     vertical-align: top;
     margin-bottom: 30px
+}
+
+.timeline-point:hover {
+    transform: scale(1.03);
+
 }
 
 .timeline-icon {
@@ -474,12 +481,14 @@ header.sticky {
 
 .timeline-date {
     width: 260px;
+    font-size: 20px;
     text-align: right;
     position: absolute;
     left: 0;
     top: 10px;
     font-weight: 300;
-    color: #f8479d
+    /* color: #f8479d */
+    color: #fff
 }
 
 

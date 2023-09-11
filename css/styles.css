@@ -452,7 +452,7 @@ header.sticky {
     position: relative;
     transition: transform .2s;
     display: block;
-    vertical-align: top;
+    /* vertical-align: top; */
     margin-bottom: 30px
 }
 
